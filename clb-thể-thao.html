@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu Lạc Bộ Thể Thao</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        header {
+		background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/476775898_604187075866751_5864352936185176026_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=gjNbxBoa0ewQ7kNvwHG8fKu&_nc_oc=Adkj9M8_ECljcZGUHRJlulAdr96COt14tF-9Wna5jnQc3OdLncVtJGqRRWaAsFm7ekV_oPT5gi-vg56ktawKfFOR&_nc_zt=23&_nc_ht=scontent.fsgn5-12.fna&_nc_gid=wQc6EOWPmThNvH-gDGxzrA&oh=00_Afol-XCbDhyXdk3Tu39DEVt_KcFqRDkNEeY26LCDXNQENw&oe=6963F7AC") center/cover no-repeat;
+		color: white;
+		padding: 90px 20px;
+		text-align: center;
+		}
+
+        header h1 {
+            font-size: 44px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 19px;
+            max-width: 800px;
+            margin: auto;
+            opacity: 0.95;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 34px;
+            margin-bottom: 25px;
+            color: #2c5364;
+        }
+
+        .about p {
+            font-size: 18px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .activities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+            margin-top: 45px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 22px;
+        }
+
+        .card-content h3 {
+            color: #203a43;
+            margin-bottom: 12px;
+            font-size: 22px;
+        }
+
+        .gallery h2 {
+            text-align: center;
+            font-size: 34px;
+            color: #2c5364;
+            margin-bottom: 30px;
+        }
+
+        .gallery-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .gallery-images img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #0f2027;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+
+    <h1>CÂU LẠC BỘ THỂ THAO</h1>
+    <p>
+       Câu lạc bộ Thể thao là nơi giúp học sinh rèn luyện sức khỏe, nâng cao thể lực và tinh thần đồng đội thông qua các hoạt động như bóng đá, bóng chuyền, cầu lông và các môn thể thao khác.
+	   Tham gia CLB, học sinh không chỉ phát triển thể chất mà còn hình thành lối sống năng động, lành mạnh.
+    </p>
+</header>
+
+<section class="about">
+    <h2>Về Chúng Tôi</h2>
+    <p>
+       Câu lạc bộ Thể thao được thành lập nhằm tạo sân chơi lành mạnh cho học sinh yêu thích vận động. 
+	   CLB tổ chức các hoạt động luyện tập và thi đấu thể thao, giúp rèn luyện sức khỏe, tinh thần đoàn kết và ý chí vượt khó, góp phần xây dựng môi trường học đường năng động và tích cực.  
+        <br><br>
+        Tham gia CLB, bạn không chỉ nâng cao kỹ năng chuyên môn mà còn rèn luyện khả
+        năng làm việc nhóm và tinh thần trách nhiệm.
+    </p>
+	<a href="https://www.facebook.com/share/p/1F8pmjFm68/">
+        <div class="card">
+            <img src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-6/596818261_853393510946105_4481115010370775318_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=SdYqiaMGA0AQ7kNvwEHZpHl&_nc_oc=AdnmGaNvlp1_zg3eozH8z074h-Sk7GazZEatLEkB4u6fkxS_EzP_xvFiEZeSpy1jC4XxMcZEjGrcckM0lei96ohi&_nc_zt=23&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=rVuCH5onZPk4W8GDphA2Kg&oh=00_AfrSFIz4Wc1FoeQaZXj5NybDyuuAQ0-fqdxP4sxpfZov7Q&oe=6963F27E">
+            <div class="card-content">
+                <h3> TỔ CHỨC GIẢI ĐẤU BÓNG CHUYỀN</h3>
+                <p>
+                    THÔNG BÁO TỔ CHỨC GIẢI ĐẤU BÓNG CHUYỀN – NGÀY 07/12.
+                </p>
+            </div>
+        </div>
+	<a href="https://www.facebook.com/share/p/1GffCKTbvj/">
+    <div class="activities">
+        <div class="card">
+            <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-6/596809533_853393327612790_643557280646371919_n.jpg?_nc_cat=107&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=833d8c&_nc_ohc=T65vp2ho6E4Q7kNvwEHuWyJ&_nc_oc=AdmBGJHZg9iKxEFewur5Mp1-hxOIjrEcln4EXNSaPlbhaqobmV2rJaf_2gqplgz2g20&_nc_zt=23&_nc_ht=scontent.fsgn5-13.fna&_nc_gid=PnSctrojuqWn6fmn-scI_g&oh=00_AfqlkT90PQCMuegXckp3m8QUVt8BAIS0Ds7Cl9XWHBgBSQ&oe=6963968C">
+            <div class="card-content">
+                <h3>HÀNH TRÌNH GIẢI BÓNG CHUYỀN</h3>
+                <p>
+                    NHÌN LẠI HÀNH TRÌNH GIẢI BÓNG CHUYỀN CÂU LẠC BỘ THỂ THAO THPT NGUYỄN ĐÌNH CHIỂU 2025–2026.
+                </p>
+            </div>
+        </div>
+	
+<a href="https://www.facebook.com/share/p/161o1pmTj3/">
+    <div class="activities">
+        <div class="card">
+            <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-6/571158100_815360934749363_3020246247497731693_n.jpg?_nc_cat=101&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GK2S39NKOmEQ7kNvwH9J8r5&_nc_oc=AdnDySuP8Ld5rJb2dVb4oz60jmvpUxvi7I1zi9fZq3qtUDVTNjqxc-7OdMTEZuFWHW0&_nc_zt=23&_nc_ht=scontent.fsgn5-13.fna&_nc_gid=7-URxfk0KH3bjujiV79bgg&oh=00_AfqzEmN9suqVBtHQ452MOM_bbI6MURe-3gqX75xIpDg8_Q&oe=69639CE9">
+            <div class="card-content">
+                <h3>THÔNG TIN CASTING</h3>
+                <p>
+                    Sau thời gian đầy hồi hộp và căng thẳng, vượt qua những thử thách thì cũng đã đến lúc chúng ta nhận được kết quả.
+                </p>
+            </div>
+        </div>
+
+</section>
+
+<section class="gallery">
+    <h2>Hình Ảnh Hoạt Động</h2>
+    <div class="gallery-images">
+	 <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/596807969_853393490946107_4205358969908377792_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PmgeyMm8Dx0Q7kNvwGqop21&_nc_oc=AdkS4R9LCdfCTpdbfFBNEiQWWyEPhkJGrh63k24y4-sKvXe6p0_WCbtQX8HDZV_wc9k&_nc_zt=23&_nc_ht=scontent.fsgn5-6.fna&_nc_gid=S6OYD1pSYmAgfMGbxGc7Jw&oh=00_AfpPs46pcsE_BSDAp2X7Z4jcLDXfgpF9TqudUXviJpHyMA&oe=69637034">
+     <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-6/566310961_812159331736190_4409269323084753781_n.jpg?_nc_cat=106&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=833d8c&_nc_ohc=18Em5-PFzOkQ7kNvwEysMCs&_nc_oc=AdlMCoAefavU91i6_qRfh4yFF_lhinl198rwaaXA6ns-Yz8qRPOmlWNqQZROLZIQyfI&_nc_zt=23&_nc_ht=scontent.fsgn5-13.fna&_nc_gid=QFZ4TxKuVcvZ9QbQFdEzeQ&oh=00_AfoyBFbzDOf99SWHSyBt5AOPASP_2Nxz8NSxB6g0szlt8g&oe=69638F74">
+	 <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/485310713_631895629762562_8115618031289016407_n.jpg?_nc_cat=103&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sZUk1ULYxT4Q7kNvwGelryv&_nc_oc=AdkrY3OxWN5uc6Ru9-NcnXOp4imop8BwJhkvfYSj4BLof3ySqVeukbBhfv1_rnZZddM&_nc_zt=23&_nc_ht=scontent.fsgn5-6.fna&_nc_gid=L0wIJk79vMpAUn64vIjD2g&oh=00_AfoedfHi11qlU2kExi-TyFa1UB7QhmfdjSITj6Y0htCFgw&oe=696385BD">
+	 <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-6/484337011_631895563095902_5314918897343757899_n.jpg?_nc_cat=110&_nc_cb=99be929b-ad57045b&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UjsdlGmATloQ7kNvwGliFTc&_nc_oc=Adm9tnjLBBQj9AgGXdRgdw-XxmMwOlyWCnP6Tl6KVa9zUoATWPrpNAyGEqTZqKCXEoc&_nc_zt=23&_nc_ht=scontent.fsgn5-6.fna&_nc_gid=ev0T5mxswy1ZHuP34k9Ylw&oh=00_AfqZZpeP6cpBLJJCvJyXFyJExiZdB-rLJsFYQ8xfOO-I-Q&oe=696373FD">
+    </div>
+</section>
+
+<footer>
+    <p>
+        © 2026 Câu Lạc Bộ Truyền Thông <br>
+        Kết nối đam mê – Sáng tạo không giới hạn – Lan tỏa giá trị tích cực
+    </p>
+</footer>
+
+</body>
+</html>
